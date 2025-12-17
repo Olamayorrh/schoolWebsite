@@ -1,5 +1,5 @@
 import sitelogo from "../../assets/Images/edunityLogo.svg";
-import Button from "../button/button";
+import Button from "../button/button.jsx";
 import "./pageHeader.css";
 
 const PageNav = () => {
