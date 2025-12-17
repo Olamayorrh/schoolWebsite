@@ -1,0 +1,42 @@
+@import url("../../../src/themes/global.css");
+.btn{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    border-radius: 3.0rem;
+    /* position: absolute; */
+    background-color: var(--secondary);
+    color: white;
+    font-size: 1.5rem;
+    border: none;
+    padding: 0.7rem;
+}
+
+button .arrow{
+    width: 2.0rem;
+    border: 0px solid red;
+    border-radius: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem;
+    width: 4.0rem;
+    height: 4.0rem;
+    padding-left: 0.2rem;
+    margin-left: 4.3rem;
+    position: relative;
+    left: 0.8rem;
+    background-color: rgba(209, 202, 236, 0.08);
+
+}
+
+button #arrow{
+    color: white;
+    opacity: 1;
+}
+
+button .create{
+    border: 0px solid green;
+    padding: 1.0rem;
+}
+

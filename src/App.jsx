@@ -1,7 +1,7 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import "./themes/global.css";
+import PageHeader from './Components/PageHeader/PageHeader';
+
 
 function App() {
   
@@ -9,7 +9,8 @@ function App() {
   return (
     <>
       <div>
-          <p>This is a REACT project!</p>
+          <PageHeader />
+         
       </div>
     </>
   )

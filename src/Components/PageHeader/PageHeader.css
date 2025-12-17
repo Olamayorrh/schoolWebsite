@@ -1,0 +1,176 @@
+@import url("../../../src/themes/global.css");
+
+.banner{
+    border: 2px solid red;
+    background-color: var(--primary);
+    width: var(--page-width);
+    height: 5.0rem;
+    display: flex;
+    position: relative;
+    /* justify-content: center; */
+}
+
+/* contactInfo starts */
+
+.banner .banner_contactInfo{
+    
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 2.0rem;
+    position: absolute;
+    left: 29.15rem;
+    right: 62.75rem;
+    width: 98.4rem;
+    height: 5.0rem;
+    font-size: 1.7rem;
+    color: white;
+    padding: 1.5rem 0;
+}
+
+
+.banner .banner_contactInfo .bannerLogo{
+    width: 2.0rem;
+    height: 2.0rem;
+}
+
+.banner_contactInfo .banner_contactInfo-logo{
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+    border-right: 1px solid white;
+    padding: 0 1.0rem
+    
+};
+
+.banLogo{
+    margin-left: 20.15rem;
+    
+}
+
+/* contactInfo ends */
+
+/* .icon{
+    color: red;
+    width: 2.0rem;
+}
+
+svg{
+    border: 2px solid red;
+}
+
+.socials{
+    background-color: yellow;
+    width: 5.0rem;
+} */
+
+
+/* socials starts */
+.banner .socials{
+    display: flex;
+    border: 2px solid green;
+    background-color: #FFD25D;
+    position: absolute;
+    left: 142.85rem;
+    right: 29.15rem;
+    align-items: center;
+    justify-content: center;
+    width: 18.3rem;
+    height: 5.0rem;
+}
+
+.banner .socials .socLogo{
+    width: 3.0rem;
+    height: 3.0rem;
+}
+
+.banner .socials #fLogo{
+    width: 0.8rem;
+    height: 1.5rem;
+}
+
+
+
+/* socials ends*/
+
+
+/* PageNav starts */
+    .nav{
+    width: var(--page-width);
+    height: 8.5rem;
+   
+}
+
+.nav .nav_child{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    border: 2px solid red;
+    height: 8.5rem;
+    margin-left: 29.15rem;
+    
+}
+    .nav .nav_logo{
+       
+        width: 22.0rem;
+        height: 5.4rem;
+    }
+
+.nav ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 1.0rem;
+    width: 68.3rem;
+    height: 8.5rem;
+    margin-left: 8.1rem;
+    border: 2px solid red;
+    font-size: 1.5rem;
+   
+}
+
+.nav ul li{
+  border: 2px solid green;
+  width: 12.239rem;
+  height: 8.5rem;
+  font-size: 2.0rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ .nav ul li:nth-child(1){
+ 
+  width: 9.403rem;
+  height: 8.5rem;
+ 
+}
+
+.nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.nav ul li:nth-child(1) a{
+    border: 2px solid #c9bdf6;
+     color: #b0a1e6;
+      border-radius: 1.0rem;
+      padding: 0.3rem;
+}
+
+.nav_button{
+    margin-left: 11.27rem;
+}
+
+
+
+/* PageNav Ends */
+
+/* PageHeader starts */
+.header{
+    height: 13.5rem;
+    width: var(--page-width);
+    border: 2px solid green;
+}
+/* PageHeader end */
