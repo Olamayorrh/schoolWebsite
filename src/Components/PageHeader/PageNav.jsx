@@ -20,7 +20,7 @@ const PageNav = () => {
           <li><a href="#">Contact</a></li>
         </ul>
         <div className="nav_button">
-          <Button />
+          <Button variant= "secondary">Create Account </Button>
         </div>
       </div>
     </div>

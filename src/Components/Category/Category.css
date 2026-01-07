@@ -1,0 +1,57 @@
+.categories{
+    border: 0px solid red;
+    width: var(--page-width);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.categories h2{
+    font-family: "Epilogue";
+    font-weight: 700;
+    font-size: 4.5rem;
+    font-weight: bold;
+    color: var(--primary);
+    width: 50.03rem;
+    height: 5.85rem;
+    margin: 2.5rem 0 7.0rem 0;
+}
+
+.categories .cardHouse{
+    border: 0px solid red;
+    /* width: var(--page-width); */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2.4rem;
+    font-family: "Epilogue";
+    font-weight: 700;
+    font-size: 2.2rem;
+    font-size: bold;
+}
+
+.categories .card{
+    width: 42.4rem;
+    height: 13.0rem;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 2.0rem;
+    padding: 2.5rem;
+    cursor: pointer;
+    transition: border 0.3s ease-in-out;
+}
+.categories .card:hover{
+    border: 1px solid var(--border-color);
+    
+}
+
+.categories .card .Logo{
+    width: 8.0rem;
+    height: 8.0rem;
+    
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

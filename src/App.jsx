@@ -1,19 +1,16 @@
-import { useState } from 'react'
+import { useState } from "react";
 import "./themes/global.css";
-import PageHeader from './Components/PageHeader/PageHeader';
 
+import Home from "./Pages/Home/Home";
 
 function App() {
-  
-
   return (
     <>
       <div>
-          <PageHeader />
-         
+        <Home />
       </div>
     </>
-  )
+  );
 }
 
-export default App
+export default App;

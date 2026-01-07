@@ -1,13 +1,13 @@
 
 import "./Button.css"
-const Button = () => {
+const Button = ({children, variant,size, onClick, type= "button"}) => {
   return (
     <>
-      <button className="btn">
-        <span className="create">Create Account</span>
+      <button type ={type} className={`btn btn-${variant} btn-${size}`} onClick={onClick}>
+        <span className="create">{children}</span>
         <div className="arrow">
         
-          <span class="material-symbols-outlined " id="arrow">arrow_forward</span>
+          <span className="material-symbols-outlined " id="arrow">arrow_forward</span>
         </div>
       </button>
     </>

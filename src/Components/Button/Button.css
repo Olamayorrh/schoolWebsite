@@ -10,6 +10,37 @@
     font-size: 1.5rem;
     border: none;
     padding: 0.7rem;
+    transition: all 0.3s ease-in-out;
+}
+
+
+
+.btn-primary {
+  background-color: var(--primary);
+  border: none;
+  
+  
+}
+
+.btn-secondary {
+  background-color: var(--secondary);
+  
+}
+
+ .btn-primary:hover{
+    border: 2px solid var(--secondary);
+    background-color: skyblue;
+  
+}
+
+.btn-secondary:hover{
+    border: 2px solid var(--primary);
+    background-color: rgb(100, 9, 100);
+}
+
+.btn-size{
+    width: 20.3rem;
+    height: 5.8rem;
 }
 
 button .arrow{

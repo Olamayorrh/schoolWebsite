@@ -1,7 +1,7 @@
 @import url("../../../src/themes/global.css");
 
 .banner{
-    border: 2px solid red;
+    border: 0px solid red;
     background-color: var(--primary);
     width: var(--page-width);
     height: 5.0rem;
@@ -39,36 +39,31 @@
     align-items: center;
     gap: 0.3rem;
     border-right: 1px solid white;
-    padding: 0 1.0rem
+    padding: 0 1.0rem;
+    cursor: pointer;
+     font-family: Sora;
+    font-weight: 400;
+    font-size: 1.7rem;
+    height: 2.1rem;
+    
     
 };
 
 .banLogo{
     margin-left: 20.15rem;
+   
     
 }
 
 /* contactInfo ends */
 
-/* .icon{
-    color: red;
-    width: 2.0rem;
-}
 
-svg{
-    border: 2px solid red;
-}
-
-.socials{
-    background-color: yellow;
-    width: 5.0rem;
-} */
 
 
 /* socials starts */
 .banner .socials{
     display: flex;
-    border: 2px solid green;
+    border: 0px solid green;
     background-color: #FFD25D;
     position: absolute;
     left: 142.85rem;
@@ -105,7 +100,7 @@ svg{
     display: flex;
     justify-content: start;
     align-items: center;
-    border: 2px solid red;
+    border: 0px solid red;
     height: 8.5rem;
     margin-left: 29.15rem;
     
@@ -125,20 +120,25 @@ svg{
     width: 68.3rem;
     height: 8.5rem;
     margin-left: 8.1rem;
-    border: 2px solid red;
+    border: 0px solid red;
     font-size: 1.5rem;
-   
+    cursor: pointer;
 }
 
 .nav ul li{
-  border: 2px solid green;
+  border: 0px solid green;
   width: 12.239rem;
   height: 8.5rem;
-  font-size: 2.0rem;
+  font-size: 1.7rem;
   display: flex;
   justify-content: center;
   align-items: center;
+  font-family: Sora;
+  font-weight: 400;
+  
 }
+
+
 
  .nav ul li:nth-child(1){
  
@@ -150,6 +150,13 @@ svg{
 .nav ul li a{
     text-decoration: none;
     color: black;
+    transition: all 0.3s ease-in-out;
+}
+
+.nav ul li a:hover{
+  border: 2px solid var(--secondary);
+  border-radius: 1.0rem;
+  padding: 0.3rem;
 }
 
 .nav ul li:nth-child(1) a{
@@ -157,6 +164,12 @@ svg{
      color: #b0a1e6;
       border-radius: 1.0rem;
       padding: 0.3rem;
+      transition: all 0.3s ease-in-out;
+}
+
+.nav ul li:nth-child(1) a:hover{
+    border: 2px solid var(--secondary);
+    color: black;
 }
 
 .nav_button{
@@ -171,6 +184,6 @@ svg{
 .header{
     height: 13.5rem;
     width: var(--page-width);
-    border: 2px solid green;
+    border: 0px solid green;
 }
 /* PageHeader end */

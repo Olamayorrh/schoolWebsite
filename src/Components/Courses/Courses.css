@@ -1,0 +1,222 @@
+.courses{
+    width: var(--page-width);
+    padding: 12.0rem 29.15rem;
+    background-color: #F8F7FD;
+    
+}
+.courses h3{
+    color: var(--secondary);
+    background-color: #E9E2FF;
+    width: 21.073rem;
+    height: 3.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.4rem;
+    font-weight: 400;
+    margin-bottom: 2.5rem;
+}
+
+.courses .courses_EduCourse{
+    display: flex;
+    justify-content: space-between;
+}
+
+.courses .courses_EduCourse .courses_EduCourse-phrase{
+    width: 74.119rem;
+    height: 11.7rem;
+    font-family: Epilogue;
+    font-weight: 700;
+    font-size: 4.5rem;
+    line-height: 5.85rem;
+}
+
+.courses_cardHolder{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2.0rem;
+}
+
+.course_title{
+    white-space: pre-line;
+    transition: all 0.3s ease-in-out;
+}
+
+.courses_cardHolder .courses_cardHolder-card{
+    width: 42.4rem;
+    height: 58.698rem;
+    border: 1px dashed var(--secondary);
+    padding: 2.1rem;
+    background-color: #F4F5F8;
+    transition: all 0.3s ease-in-out;
+}
+
+.courses_cardHolder-card .courses_cardHolder-card_image{
+    width: 38.2rem;
+    height: 25.398rem;
+    position: relative;
+    
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
+}
+
+.courses_cardHolder-card .courses_cardHolder-card_detail{
+    margin-top: 3.4rem;
+    position: relative;
+    
+}
+
+.courses_cardHolder-card_detail .background{
+    position: absolute;
+    left: 20;
+    opacity: 0.7;
+}
+
+.courses_cardHolder-card_nameTag{
+    width: 16.589rem;
+    height: 4.0rem;
+    color: white;
+    background-color: var(--primary);
+    border-radius: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 400;
+    font-size: 1.2rem;
+    font-family: Sora;
+    position: absolute;
+    top: 19.5rem;
+    left: 2.0rem;
+}
+
+.courses_cardHolder-card_star{
+    display: flex;
+    align-items: center;
+    
+    
+}
+
+.courses_cardHolder-card_stars{
+    width: 7.907rem;
+    height: 1.4rem;
+    display: flex;
+    align-items: center;
+    font-weight: 400;
+    font-size: 1.4rem;
+    
+}
+
+.courses_cardHolder-card_star p{
+    width: 2.778rem;
+    height: 3.2rem;
+    font-family: Epilogue;
+    font-size: 1.4rem;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+}
+
+.courses_cardHolder-card_review{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 0px solid red;
+}
+.courses_cardHolder-card_review .dols{
+    width: 4.435rem;
+    height: 3.2rem;
+    color: var(--secondary);
+    font-family: Epilogue;
+    font-size: 1.4rem;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+}
+
+.courses_cardHolder-card_detail #course_title{
+    width: 32.863rem;
+    height: 6.6rem;
+    font-family: Epilogue;
+    font-size: 1.95rem;
+    font-weight: 600;
+    color: var(--primary);
+    line-height: 3.3rem;
+}
+
+.courses_cardHolder .lesson{
+    display: flex;
+    align-items: center;
+    gap: 2.0rem;
+    margin-top: 2.35rem;
+    background-color: white;
+    width: 38.2rem;
+    height: 5.0rem;
+    padding: 1.8rem;
+    font-family: Sora;
+    font-weight: 400;
+    font-size: 1.4rem;
+    border: 0px solid red;
+    
+}
+
+.courses_cardHolder .lesson .duration{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.courses_cardHolder-card_detail .enroll{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3.2rem 0;
+}
+
+.enroll .authour{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.enroll .authour p{
+    width: 8.842rem;
+    height: 3.2rem;
+    font-family: epilogue;
+    font-weight: 500;
+    font-size: 1.4rem;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.enroll button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 12.85rem;
+    height: 4.0rem;
+    color: white;
+    background-color: var(--secondary);
+    border: none;
+    gap: 1.0rem;
+    border-radius: 5.0rem;
+    transition: all 0.3s ease-in-out;
+}
+
+.enroll button:hover {
+    border: 1px solid purple;
+    background-color: #E9E2FF;
+}
+
+.courses_cardHolder-card:hover{
+    border: 2px solid var(--secondary);
+}
+
+.courses_cardHolder-card:hover .course_image{
+    transform: scale(1.08);
+}
+
+.courses_cardHolder-card:hover .course_title{
+    transform: scale(1.08);
+}

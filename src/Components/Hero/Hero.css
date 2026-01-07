@@ -1,0 +1,180 @@
+@import url("../../../src/themes/global.css");
+
+.hero {
+  width: var(--page-width);
+  height: 67rem;
+  border: 0px solid red;
+  display: flex;
+  background-color: #FAF8FE;
+  overflow: hidden;
+}
+
+.hero .heroImage {
+  width: 74.056rem;
+  
+}
+
+.hero .hero_Content {
+  width: 116.244rem;
+  margin-left: 29.15rem;
+  border: 0px solid green;
+  position: relative;
+  
+}
+
+.hero .hero_Content h4 {
+  font-weight: 400;
+  font-size: 1.7rem;
+  width: 33.639;
+  height: 3.2rem;
+  margin-top: 15.95rem;
+  color: var(--secondary);
+  margin-bottom: 1.05rem;
+}
+
+.hero .hero_Content .experiencee{
+    width: 48.767rem;
+    height: 5.375rem;
+    line-height: 2.85rem;
+    font-family: Sora;
+    font-weight: 400;
+    font-size: 1.4rem;
+    margin-bottom: 1.075rem;
+    
+}
+
+.hero .hero_Content h2 {
+  width: 87.2rem;
+  height: 14.4rem;
+  font-family: "Epilogue";
+  font-weight: 700;
+  font-style: bold;
+  line-height: 7.2rem;
+  font-size: 6rem;
+  color: var(--primary);
+}
+
+.hero .hero_Content #instruct {
+  font-size: 1.46rem;
+  line-height: 2.85rem;
+  font-weight: 400;
+  width: 48.767rem;
+  height: 5.375rem;
+  border: 0px solid red;
+  margin: 1.05rem 0 1.075rem 0;
+}
+
+
+
+#dashed {
+  width: 35.5rem;
+  height: 11.9rem;
+  border: 0px solid red;
+  position: absolute;
+  left: 23.0rem;
+  top: 43.081rem;
+}
+
+#instructor {
+  width: 34.534rem;
+  height: 17.4rem;
+  box-shadow: 0 0 0.5rem;
+  border-radius: 1rem;
+  font-size: 3rem;
+  font-weight: 400;
+  position: absolute;
+  padding-top: 3.6rem;
+  padding-left: 4.0rem;
+  left: 66.773rem;
+  background-color: white;
+  top: 39.92rem;
+}
+
+#instructor #instruct {
+  color: var(--secondary);
+  font-size: 2.9rem;
+  width: 24.055rem;
+  height: 3.2rem;
+  font-family: Sora;
+  font-weight: 400;
+  
+}
+
+#instructor p > span{
+    color: var(--primary);
+}
+
+#instructor .image {
+  display: flex;
+  padding: 0 1rem 0 0;
+}
+
+#instructor .image .imgg {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+}
+
+#instructor .image .imgg1{
+    background-color: #224991;
+}
+
+#instructor .image .imgg2{
+    background-color: #48C6EB;
+}
+
+#instructor .image .imgg3{
+    background-color: #EBBD2A;
+}
+
+#instructor .image .imgg4{
+    background-color: #ABA48f;
+}
+
+#instructor .image .img5{
+    background-color: #023475;
+   
+}
+
+#instructor .image .imgg5{
+    width: 1.5rem;
+    height: 1.5rem;
+   
+}
+
+#instructor .image .img {
+  /* background-color: aqua; */
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: -2.0rem;
+}
+
+#instructor .image :nth-child(1){
+    margin-left: 0;
+}
+
+.hero .hero_Content .cate{
+   background-color: #E9E2FF;
+   position: absolute;
+   display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 62.8rem;
+    left: 60.634rem;
+    width: 13.73rem;
+    height: 3.2rem;
+    color: var(--secondary);
+}
+
+.hero .hero_Content #cate{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Sora;
+    font-weight: 400;
+    font-size: 1.4rem;
+}
